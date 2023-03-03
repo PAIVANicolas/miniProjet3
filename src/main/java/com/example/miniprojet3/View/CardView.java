@@ -8,14 +8,24 @@ public class CardView extends ImageView {
 
     private Card card;
 
-    public CardView(Card card){
+    public CardView(Card card) {
+        super(card.getImage());
         this.card = card;
-        this.card.setImage(new Image("file:src/main/resources/images/th.jpeg"));
+        this.card.setImage(new Image("file:src/main/resources/images/back.jpeg"));
         this.setFitWidth(90);
         this.setFitHeight(150);
-
         this.setImage(this.card.getImage());
 
+    }
+
+    public void showFront(){
+        System.out.println(card.getFrontImage().getUrl());
+        this.setImage(card.getFrontImage());
+    }
+
+    public void showBack(){
+        System.out.println(card.getBackImage().getUrl());
+        this.setImage(card.getBackImage());
     }
 
 }

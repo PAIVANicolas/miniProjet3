@@ -1,5 +1,6 @@
 package com.example.miniprojet3.Modele;
 
+import com.example.miniprojet3.Controleur.CardController;
 import com.example.miniprojet3.Controleur.MemoryGameController;
 import com.example.miniprojet3.View.CardView;
 import javafx.application.Application;
@@ -12,9 +13,11 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
+
 public class MemoryGame extends Application {
     private Card card;
     private CardView cardView;
+
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(MemoryGameController.class.getResource("testd.fxml"));
@@ -27,8 +30,12 @@ public class MemoryGame extends Application {
         gridPane.setPadding(new javafx.geometry.Insets(10,10,10,10));
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 4; j++) {
-                card = new Card(new Image("file:src/main/resources/fr/miniprojet3/miniprojet3/images/dos-carte-s10-hearthstone.jpg"));
+                card = new Card(new Image("file:src/main/resources/fr/miniprojet3/miniprojet3/images/back.jpeg"));
                 cardView = new CardView(card);
+                CardController cardController = new CardController(card, cardView);
+                cardView.setOnMouseClicked(event->{
+                    cardController.onCarteClick();
+                });
                 gridPane.add(cardView, i, j);
             }
         }
@@ -43,6 +50,7 @@ public class MemoryGame extends Application {
         stage.setTitle("Memory Game");
         stage.show();
     }
+
 }
 
 

@@ -1,9 +1,11 @@
-package com.example.miniprojet3;
+package com.example.miniprojet3.View;
 
 
+import com.example.miniprojet3.Controleur.CardController;
 import com.example.miniprojet3.Modele.Card;
 import com.example.miniprojet3.View.CardView;
 import javafx.application.Application;
+import javafx.fxml.FXML;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
@@ -16,11 +18,13 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class MemoryGameView extends Application {
     private Card card;
     private CardView cardView;
-    private final int NUM_ROWS = 4;
-    private final int NUM_COLS = 4;
+    private Map<Card, CardController> cardControllerMap = new HashMap<>();
 
     private BorderPane borderPane;
     private GridPane cardsPane;
@@ -59,8 +63,16 @@ public class MemoryGameView extends Application {
         cardsPane.setPadding(new javafx.geometry.Insets(10,10,10,10));
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 4; j++) {
-                card = new Card(new Image("file:src/main/resources/fr/miniprojet3/miniprojet3/images/dos-carte-s10-hearthstone.jpg"));
+
+                card = new Card(new Image("file:src/main/resources/images/frontCard1.jpeg"));
                 cardView = new CardView(card);
+                cardsPane.add(cardView, i, j);
+                cardView = new CardView(card);
+                CardController cardController = new CardController(card,cardView);
+                cardView.setOnMouseClicked(event -> {
+                    cardController.onCarteClick();
+                });
+                cardControllerMap.put(card, cardController);
                 cardsPane.add(cardView, i, j);
             }
         }

@@ -5,14 +5,13 @@ import com.example.miniprojet3.View.CardView;
 import javafx.fxml.FXML;
 import javafx.scene.image.ImageView;
 
-public class CardController  {
+public class CardController {
 
     private Card card;
     private ImageView imageView;
     private CardView cardView;
 
-    public CardController(Card carte, ImageView imageView, CardView cardView) {
-        this.imageView = imageView;
+    public CardController(Card card, CardView cardView) {
         this.card = card;
         this.cardView = cardView;
     }
@@ -32,13 +31,16 @@ public class CardController  {
     }
 
 
-    public CardController getCarteController() {
+    public CardController getCardController() {
         return this;
     }
 
     public void returnCard(CardView imageView) {
-        imageView.setImage(card.getImage());
-        card.setTurn(true);
+        if(card.isTurn()){
+            imageView.showBack();
+        }else if(!card.isTurn()){
+            imageView.showFront();
+        }
     }
 
 

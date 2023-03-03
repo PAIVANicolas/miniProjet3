@@ -4,21 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f0b9cbb-2b7b-4fe9-adfb-a5f0b3b76a8d" name="Changes" comment="Codage de la classe Card">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/Controleur/CardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/Controleur/MemoryGameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/MemoryGameView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/Modele/MemoryGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/View/CardView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/miniprojet3/memory-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/miniprojet3/testd.fxml" afterDir="false" />
+    <list default="true" id="6f0b9cbb-2b7b-4fe9-adfb-a5f0b3b76a8d" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/MemoriseApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/MemoriseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/Controleur/CardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/Controleur/CardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/MemoryGameView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/View/MemoryGameView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/Modele/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/Modele/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/Modele/MemoryGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/Modele/MemoryGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/View/CardView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/View/CardView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/miniprojet3/memorise-view.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -45,15 +38,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -74,11 +67,11 @@
       </method>
     </configuration>
     <configuration name="MemoryGameView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.miniprojet3.MemoryGameView" />
+      <option name="MAIN_CLASS_NAME" value="com.example.miniprojet3.View.MemoryGameView" />
       <module name="miniProjet3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.miniprojet3.*" />
+          <option name="PATTERN" value="com.example.miniprojet3.View.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,7 +82,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MemoryGameView" />
-        <item itemvalue="Application.MemoryGameModel" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +97,8 @@
       <workItem from="1677571750264" duration="828000" />
       <workItem from="1677572602050" duration="3240000" />
       <workItem from="1677599956482" duration="4302000" />
-      <workItem from="1677774507535" duration="9263000" />
+      <workItem from="1677774507535" duration="12113000" />
+      <workItem from="1677846853782" duration="3047000" />
     </task>
     <task id="LOCAL-00001" summary="ajoutes des fichiers AUTHORS et HELPERS">
       <created>1677572164784</created>
@@ -128,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677775392965</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <created>1677834229001</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677834229001</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +149,7 @@
     <MESSAGE value="ajoutes des fichiers AUTHORS et HELPERS" />
     <MESSAGE value="modification des paths" />
     <MESSAGE value="Codage de la classe Card" />
-    <option name="LAST_COMMIT_MESSAGE" value="Codage de la classe Card" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>

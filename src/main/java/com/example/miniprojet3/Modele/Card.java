@@ -4,15 +4,24 @@ import javafx.scene.image.Image;
 
 public class Card {
     private Image image;
+    private Image frontImage;
     private boolean isTurn;
 
 
     public Card(Image image) {
-        this.image = new Image("file:", 240,240,false, false);
+        this.image = new Image("file:src/main/resources/fr/miniprojet3/miniprojet3/images/back.jpeg", 240,240,false, false);
         isTurn = false;
+        this.frontImage = image;
+    }
+    public Image getFrontImage() {
+        return frontImage;
     }
 
     public Image getImage() {
+        return image;
+    }
+
+    public Image getBackImage() {
         return image;
     }
 
