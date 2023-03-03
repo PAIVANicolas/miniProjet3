@@ -1,12 +1,9 @@
 package com.example.miniprojet3.Modele;
 
-import com.example.miniprojet3.Controleur.CardController;
-import com.example.miniprojet3.Controleur.MemoryGameController;
 import com.example.miniprojet3.View.CardView;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.scene.image.Image;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
