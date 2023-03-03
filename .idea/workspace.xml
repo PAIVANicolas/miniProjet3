@@ -4,15 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f0b9cbb-2b7b-4fe9-adfb-a5f0b3b76a8d" name="Changes" comment="ajoutes des fichiers AUTHORS et HELPERS">
-      <change beforePath="$PROJECT_DIR$/src/AUTHORS" beforeDir="false" afterPath="$PROJECT_DIR$/AUTHORS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/HELPERS" beforeDir="false" afterPath="$PROJECT_DIR$/HELPERS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/MemoriseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/MemoriseApplication.java" afterDir="false" />
+    <list default="true" id="6f0b9cbb-2b7b-4fe9-adfb-a5f0b3b76a8d" name="Changes" comment="Codage de la classe Card">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/Controleur/CardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/Controleur/MemoryGameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/MemoryGameView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/Modele/MemoryGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/View/CardView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/miniprojet3/memory-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/miniprojet3/testd.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/MemoriseApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/MemoriseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/Modele/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/Modele/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/miniprojet3/memorise-view.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,13 +50,48 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.MemoryGameView">
+    <configuration name="MemoryGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.miniprojet3.Modele.MemoryGame" />
+      <module name="miniProjet3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.miniprojet3.Modele.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemoryGameView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.miniprojet3.MemoryGameView" />
+      <module name="miniProjet3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.miniprojet3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MemoryGameView" />
+        <item itemvalue="Application.MemoryGameModel" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -48,7 +102,10 @@
       <option name="presentableId" value="Default" />
       <updated>1677570147228</updated>
       <workItem from="1677570149443" duration="775000" />
-      <workItem from="1677571750264" duration="560000" />
+      <workItem from="1677571750264" duration="828000" />
+      <workItem from="1677572602050" duration="3240000" />
+      <workItem from="1677599956482" duration="4302000" />
+      <workItem from="1677774507535" duration="9263000" />
     </task>
     <task id="LOCAL-00001" summary="ajoutes des fichiers AUTHORS et HELPERS">
       <created>1677572164784</created>
@@ -57,7 +114,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677572164784</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="modification des paths">
+      <created>1677572337230</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677572337230</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Codage de la classe Card">
+      <created>1677775392965</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677775392965</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,6 +147,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ajoutes des fichiers AUTHORS et HELPERS" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajoutes des fichiers AUTHORS et HELPERS" />
+    <MESSAGE value="modification des paths" />
+    <MESSAGE value="Codage de la classe Card" />
+    <option name="LAST_COMMIT_MESSAGE" value="Codage de la classe Card" />
   </component>
 </project>
