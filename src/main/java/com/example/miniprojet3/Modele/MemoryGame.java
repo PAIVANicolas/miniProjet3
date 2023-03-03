@@ -28,17 +28,6 @@ public class MemoryGame extends Application {
         BorderPane borderPane = fxmlLoader.load();
         GridPane gridPane = new GridPane();
         gridPane.setPadding(new javafx.geometry.Insets(10,10,10,10));
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 4; j++) {
-                card = new Card(new Image("file:src/main/resources/fr/miniprojet3/miniprojet3/images/back.jpeg"));
-                cardView = new CardView(card);
-                CardController cardController = new CardController(card, cardView);
-                cardView.setOnMouseClicked(event->{
-                    cardController.onCarteClick();
-                });
-                gridPane.add(cardView, i, j);
-            }
-        }
 
         borderPane.setCenter(gridPane);
 

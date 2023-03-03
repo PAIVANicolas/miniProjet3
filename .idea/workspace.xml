@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f0b9cbb-2b7b-4fe9-adfb-a5f0b3b76a8d" name="Changes" comment="update">
+    <list default="true" id="6f0b9cbb-2b7b-4fe9-adfb-a5f0b3b76a8d" name="Changes" comment="update front card visible with onclick">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/Controleur/CardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/Controleur/CardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/MemoryGameView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/View/MemoryGameView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/Modele/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/Modele/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/Controleur/MemoryGameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/Controleur/MemoryGameController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/Modele/MemoryGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/Modele/MemoryGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/View/CardView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/View/CardView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/View/MemoryGameView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/miniprojet3/View/MemoryGameView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +96,7 @@
       <workItem from="1677572602050" duration="3240000" />
       <workItem from="1677599956482" duration="4302000" />
       <workItem from="1677774507535" duration="12113000" />
-      <workItem from="1677846853782" duration="3047000" />
+      <workItem from="1677846853782" duration="4458000" />
     </task>
     <task id="LOCAL-00001" summary="ajoutes des fichiers AUTHORS et HELPERS">
       <created>1677572164784</created>
@@ -128,7 +126,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677834229001</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update front card visible with onclick">
+      <created>1677850060947</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677850060947</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update front card visible with onclick">
+      <created>1677850070190</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677850070190</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +162,7 @@
     <MESSAGE value="modification des paths" />
     <MESSAGE value="Codage de la classe Card" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="update front card visible with onclick" />
+    <option name="LAST_COMMIT_MESSAGE" value="update front card visible with onclick" />
   </component>
 </project>

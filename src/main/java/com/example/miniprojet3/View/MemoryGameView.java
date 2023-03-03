@@ -61,11 +61,16 @@ public class MemoryGameView extends Application {
 
 
         cardsPane.setPadding(new javafx.geometry.Insets(10,10,10,10));
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 4; j++) {
+        for (int i = 0; i < 2; i++) {
+            for (int j = 0; j < 2; j++) {
+                if((i+j)%2==0){
+                    card = new Card(new Image("file:src/main/resources/images/frontCard1.jpeg"));
+                }else{
+                    card = new Card(new Image("file:src/main/resources/images/frontCard2.jpeg"));
+                }
 
-                card = new Card(new Image("file:src/main/resources/images/frontCard1.jpeg"));
                 cardView = new CardView(card);
+
                 cardsPane.add(cardView, i, j);
                 cardView = new CardView(card);
                 CardController cardController = new CardController(card,cardView);
