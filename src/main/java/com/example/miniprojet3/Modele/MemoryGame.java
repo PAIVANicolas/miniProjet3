@@ -1,5 +1,6 @@
 package com.example.miniprojet3.Modele;
 
+import com.example.miniprojet3.Controleur.MemoryGameController;
 import com.example.miniprojet3.View.CardView;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
